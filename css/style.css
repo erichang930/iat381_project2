@@ -458,12 +458,12 @@ border-radius: 3px;
 .catalog-menu{
 	margin:0 10px 0 0;
 	width:120px;
-	min-height:500px;
+	min-height:360px;
 }
 .catalog-content{
-	width:700px;
-	min-height:500px;
-	margin:0;
+	width:720px;
+	min-height:660px;
+	padding:13px;
 }
 .catalog-list{
 	width:100%;
@@ -482,27 +482,31 @@ border-radius: 3px;
 
 /* Genre menu*/
 .product-genre{
-	padding:0;
-	width:160px;
+	padding:7px;
+	width:130px;
 }
-	.product-genre h2{
-		margin:30px 20px 20px 20px;
+
+.product-genre h2{
+		margin:30px 20px 20px 14px;
 	}
+
 .genre-menu{
 	list-style-type: none;
 	padding:0;
 }
-	.genre-menu a{
-		text-align:left;
-		display:block;
-		padding: 10px 20px;
-		cursor:pointer;
-		/*background-color:green;*/
-	}
-	.genre-menu a:hover, .genre-menu a:active{
+
+.genre-menu a{
+	text-align:left;
+	display:block;
+	padding: 10px 20px;
+	cursor:pointer;
+}
+
+.genre-menu a:hover, .genre-menu a:active{
 		background:grey;
 		color:#FFF;
 	}
+
 /* Product */
 .product-breadcrumb{
 	margin:0 0 20px 0;
@@ -912,57 +916,51 @@ font-size:40px;
 
 /*=====	Footer ======*/
 .footer-wrapper{
-	background-color:#333333;
-	margin:0 auto;
+	background-color:#000;
 	width:100%;
-	padding:50px 0 50px 0;
+	padding:20px 0 20px 0;
 	-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 
 }
 
-.footer{			
-	margin-left: 20px;
-}
-	
-.footer a{
-	color:#686d71;
-	text-decoration:none;
-	font-weight:normal;
-	display:block;
-}
-		
-.footer-contact, .footer-message{
-	width:100%;
-	color:#686d71;
-	text-align:left;
-	margin: 13px 0 0 10px;
-	list-style:none;
+#footer {
+	background-color: #000;
+	height: 38px;
 }
 
-.social{
-	margin:0 auto;
-	height: 100px;
-	padding: 0 10px;
+
+#footer div {
+	padding-top: 10px;
+	margin: auto;
+	overflow: hidden;
+	width: 960px;
 }
 
-.social a{
-	font-size:20px;
-	line-height:20px; /*same as height of .cart to center*/
-	color:white;
-	-webkit-transition: color .3s;
-	-moz-transition: color .3s;
-	transition: color .3s;
-	text-shadow:none;
+#footer div p {
+	font-family: Times New Roman, Times, serif;
+	margin: 0;
 }
 
-.social a:hover{
-	color:#545454;
+#footer div p a {
+	color: #fff;
+	text-decoration: none;
 }
 
-.footer-contact li{
-		display:inline;
+#footer div p a:hover {
+	color: #665B51;
+	text-decoration: underline;
+}
+
+#footer div p.connect {
+	float: left;
+	color: #c7c7c7;
+}
+
+#footer div p.footnote {
+	float: right;
+	color: #c7c7c7;
 }
 
 
@@ -975,58 +973,61 @@ font-size:40px;
 @media only screen
 and (max-width:480px){
 	
-
-	.center-wrapper{
+.center-wrapper{
  	width:100%;
- 	
  }
-	.body-wrapper{
+
+.body-wrapper{
 	background-color:#eaeaea;
 	width:100%;
-	padding:0px 0 0px 0;
+	padding:10px 0 0px 0;
 	color:#686d71;
 }
-	.header{
-		background-color:#ffffff;
-		width:100%;
-		
+
+.header{
+	background-color:#000;
+	width:100%;	
+}
+
+.logo{
+	width:154px;
+    height:110px;
+	background:url(../img/vinyl_logo.jpg) no-repeat;	
+}
+
+.topNav{
+	font-size: 5em;
+	width:100%;
+	padding-right: -10px;
+	margin:0 0 8px -25px;
+}
+
+.navbar{
+	background-color:#000;
+	width:100%;
+	height:52px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.search-wrapper{		
+	width:100%;
+	clear:none;
 	}
-	.logo{
-		margin:20px 0 0 20px;
-		background:url(../img/Vinylla.png) no-repeat;
-	
-		
-	}
-	.topNav{
-		font-size: 5em;
-		width:100%;
-		margin:5px 0 8px -5px;
-	}
-	.navbar{
-		background-color:#4a8bc1;
-		width:100%;
-		height:52px;
-			-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
-		}
-	.search-wrapper{		
-		width:100%;
-		clear:none;
-	}
-		.search-bar{
-			width:98%;
-			margin-top:10px; 
-			padding:18px 5px 17px 30px;
-			border: 1px solid;
-			font-size:12px;
-			color:#686d71;
-			background-color:#F2F2F2;
-			background:url(../img/magnifying.png) 8px center no-repeat;
-			-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
-		}
+.search-bar{
+	width:98%;
+	margin-top:10px; 
+	padding:18px 5px 17px 30px;
+	border: 1px solid;
+	font-size:12px;
+	color:#686d71;
+	background-color:#F2F2F2;
+	background:url(../img/magnifying.png) 8px center no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 
 	.profile-wrapper{
@@ -1317,7 +1318,6 @@ and (max-width:480px){
 	background-color:#333333;
 	margin:0 auto;
 	width:100%;
-	padding:50px 0 100px 0;
 	-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
