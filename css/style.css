@@ -372,11 +372,13 @@ input[type=text]:focus{
 .vinyl-list li h4{
 	font-size:10px;
 	font-weight:bold;
+	padding-top: 3px;
 	margin:0;
 }
 		
 .vinyl-list li h5{
 	font-size:8px;
+	padding-top: 8px;
 	margin:0;
 }
 		
@@ -386,7 +388,6 @@ input[type=text]:focus{
 		
 .vinyl-detail{
 	clear:both;
-	margin-left:12px;
 }
 
 .vinyl-list li button{
