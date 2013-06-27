@@ -355,7 +355,7 @@ input[type=text]:focus{
 	display:block;
 	list-style-type: none;
 	float:right;
-	padding-right:18px;
+	padding-right:0px;
 }
 		
 .vinyl-list li hr{
@@ -410,10 +410,7 @@ input[type=text]:focus{
 	-ms-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
-		
-.vinyl-list li button:hover{
-	border:1px solid #999;
-}
+
 		
 .vinyl-list li button:active{
 	background-color:#ffffff;
@@ -421,11 +418,12 @@ input[type=text]:focus{
 }
 		
 .vinyl-list li button.buy{
-	width:90px;
+	width:120px;
 }
 
 .vinyl-list li button.buy:hover{
-	height:50px;
+	height:110px;
+	text-align: left;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	-ms-border-radius: 8px;
