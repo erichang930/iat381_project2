@@ -150,7 +150,7 @@ input[type=text]:focus{
 
 .search-bar{
 	width:120px;
-	padding:18px 25px 17px 30px;
+	padding:18px 60px 17px 30px;
 	border: none;
 	font-size:12px;
 	color:#686d71;
@@ -160,15 +160,13 @@ input[type=text]:focus{
 
 .cart{
 	float:right;
-	margin:0 auto;
-	background-color:#D9D9D9;
 	height: 52px;
 	padding: 0 15px;
 }
 	
 .cart a{
-	font-size:20px;
-	line-height:50px; /*same as height of .cart to center*/
+	font-size:15px;
+	line-height:102px; /*same as height of .cart to center*/
 	color:white;
 	-webkit-transition: color .3s;
 	-moz-transition: color .3s;
@@ -177,7 +175,7 @@ input[type=text]:focus{
 	}
 
 .cart a:hover{
-	color:#545454;
+	color:#666666;
 }
 
 .profile-wrapper{
@@ -191,7 +189,8 @@ input[type=text]:focus{
 	
 .profile-wrapper .name{
 	line-height:75%;
-	font-size:15px;
+	color: #c7c7c7;
+	font-size:12px;
 }
 
 .profile-wrapper .log-in{	
@@ -200,7 +199,7 @@ input[type=text]:focus{
 }
 
 .account-info{
-	margin:45px 5px 0 40px;
+	margin:45px 15px 0 40px;
 }
 		
 .slider-wrapper{
@@ -208,7 +207,7 @@ input[type=text]:focus{
 	line-height:1em;
 	margin:0 0 0 0;
 	padding:0;
-	text-align:center;
+	text-align:right;
 	background: #000;
 }
 
