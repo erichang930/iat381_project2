@@ -423,7 +423,7 @@ input[type=text]:focus{
 
 .vinyl-list li button.buy:hover{
 	height:110px;
-	text-align: left;
+	text-align: center;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	-ms-border-radius: 8px;
