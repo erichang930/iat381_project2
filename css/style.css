@@ -274,15 +274,15 @@ input[type=text]:focus{
 
 .home-content{
 	float:left;
-	width:25%;
-	margin:35px 40px 0 10px;
+	width:20%;
+	margin:35px 45px 0 10px;
 }
 		
 .home-content h2{
 	font-size:18px;
 	line-height:32px;
 	margin:0;
-	width:90%;
+	width:100%;
 	background-color: black;
 	border:1px solid #cccccc; 
 	padding:0 5px;
