@@ -166,7 +166,7 @@ input[type=text]:focus{
 	
 .cart a{
 	font-size:15px;
-	line-height:98px; /*same as height of .cart to center*/
+	line-height:95px; /*same as height of .cart to center*/
 	color:white;
 	-webkit-transition: color .3s;
 	-moz-transition: color .3s;
