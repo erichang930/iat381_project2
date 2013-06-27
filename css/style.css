@@ -199,6 +199,10 @@ input[type=text]:focus{
 	font-size:10px;
 }
 
+.profile-wrapper .log-in:hover{	
+ 	color: white;
+}
+
 .account-info{
 	margin:45px 15px 0 40px;
 }
@@ -337,6 +341,14 @@ input[type=text]:focus{
 	color:#999;
 	margin:0 0 0 508px;
 }
+
+.popular-module .view-more2{
+	font-weight:bold;
+	font-size:14px;
+	color:#999;
+	margin:0px 0 0 625px;
+}
+
 .popular-module .view-more:hover{
 	color:#333;
 }
@@ -920,9 +932,9 @@ font-size:40px;
 	width:100%;
 	padding:20px 0 20px 0;
 	-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
 }
 
 #footer {
@@ -932,7 +944,7 @@ font-size:40px;
 
 
 #footer div {
-	padding-top: 10px;
+	padding-top: 11px;
 	margin: auto;
 	overflow: hidden;
 	width: 960px;
@@ -963,387 +975,3 @@ font-size:40px;
 	color: #c7c7c7;
 }
 
-
-
-/* =================================================
-* Media Query Styles
-* ================================================== */
-
-/* Smartphones */
-@media only screen
-and (max-width:480px){
-	
-.center-wrapper{
- 	width:100%;
- }
-
-.body-wrapper{
-	background-color:#eaeaea;
-	width:100%;
-	padding:10px 0 0px 0;
-	color:#686d71;
-}
-
-.header{
-	background-color:#000;
-	width:100%;	
-}
-
-.logo{
-	width:154px;
-    height:110px;
-	background:url(../img/vinyl_logo.jpg) no-repeat;	
-}
-
-.topNav{
-	font-size: 5em;
-	width:100%;
-	padding-right: -10px;
-	margin:0 0 8px -25px;
-}
-
-.navbar{
-	background-color:#000;
-	width:100%;
-	height:52px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.search-wrapper{		
-	width:100%;
-	clear:none;
-	}
-.search-bar{
-	width:98%;
-	margin-top:10px; 
-	padding:18px 5px 17px 30px;
-	border: 1px solid;
-	font-size:12px;
-	color:#686d71;
-	background-color:#F2F2F2;
-	background:url(../img/magnifying.png) 8px center no-repeat;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
-	.profile-wrapper{
-		float:right;
-		margin:0 auto;
-		background-color:#000;
-		clear:none;
-	}
-
-.profile-wrapper .name{
-	display:none;
-}
-
-.profile-wrapper .log-in{
-	display:none;
-}
-
-.slider-wrapper.short{
-    min-height:100px;
-    background:none;
-}
-
-.slider-wrapper h1{
-	width:100%;
-	color:black;
-	text-shadow:none;
-	text-align:center;
-	margin: -20px 0 0;
-	padding-bottom:20px;
-	}
-	
-.vinyl-list li{
-	display:none;
-	}
-
-/*=====	Product and Catalog  ======*/
-.popular-module{
-		width:100%;
-		padding:0;	
-		background:rgba(256,256,256,0.7);
-	}
-		.popular-module h2{
-			font-size:18px;
-			line-height:32px;
-			margin:0 0 0 0;
-			width:40%;
-			padding:10px 15px;
-		}
-
-
-		.product-genre ul     { display: none; }
-
-  		.popular-module select { 
-  			display: inline-block; 
-  			border:0;
-    		background:transparent;
-    		height:32px;
-    		font-size:12px;
-			color:#686d71;
-			padding-left: 10px;
-   			border:1px solid #d8d8d8;
-   			width:100%;
-    		
-  		}
-  		.popular-module ul li:nth-of-type(n+8) {
-  			display: none;
-  			width:100%;}
-		
-	
-		.popular-module .view-more{
-			float:right;
-			clear:none;
-			width:20%;
-			font-weight:bold;
-			font-size:14px;
-			color:#999;
-			margin-left: 80%;
-	}
-	
-		
-		
-
-
-.catalog-menu{
-	width:100%;
-}
-.catalog-content{
-	width:100%;
-	margin:0;
-}
-	.catalog-content audio{
-		display: none;
-	}
-	
-
-
-.catalog-list{
-	width:100%;
-	margin-left: 0px;
-
-}
-.catalog-list li {
-	width:100%;
-	float:none;
-	margin-bottom: 50px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-
-.product-genre{
-	padding:0;
-	width:100%;
-	margin-bottom:-400px;
-}
-
-.product-breadcrumb{
-	margin:0 0 20px 10px;
-	color:#82878a;
-	width:100%;
-	text-align: center;
-}
-
-.product-details-wrapper{
-	width:100%;
-}
-
-	.product-related-wrapper{
-	
-	width:100%;
-	border-left:1px dashed  #a1a7ab;
-	height: 350px;
-	padding: 0 0 0 0px;
-	margin: 0px;
-	}
-
-
-
-
-		.vinyl-list{			
-			padding:0;
-			width:100%;
-			margin:20px 0 0 0px;
-		}
-
-		.
-		 li h3{
-			font-size:15px;
-			padding-top:4px;
-			margin:0;
-		}
-		.vinyl-list li h4{
-			font-size:13
-			px;
-			font-weight:bold;
-			margin:0;
-		}
-		.vinyl-list li h5{
-			font-size:13px;
-			margin:0;
-		}
-		.vinyl-list li img{
-			
-			margin:0 10px 0 0;
-		}
-	
-.home-content{
-		
-		width:100%;
-		margin:35px 0 0 0px;
-	}
-
-	.footerSearch-wrapper, .footerProfile-wrapper, .footerCart{
-		display:none;
-	}
-	.center-wrapper{
-		width:100%;
-		-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-}
-
-
-
-/*=====	Cart ======*/
-
-	.cart-content{
-		margin:0;
-		width:100%;
-		
-	}
-	.cart-content img{
-		margin:25px 7% 0;
-		width:85%;
-		
-	}
-	.cart-item{
-		!width:100%;
-		clear:right;
-		-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-	}
-		.cart-item li{
-			list-style:none;
-			margin-right:0;
-		}
-	.cart-list{
-		border: 1px solid #e0e0e0;
-		margin:3px;
-		padding:7px;
-		width:98%;
-		clear:none;
-		-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-	}
-		.cart-list ul{
-			padding:0;
-		}
-		.cart-list li{
-			text-align:right;
-			display:inline-block;
-			margin:0;
-			padding-top:15px;
-			width:24%;
-			line-height:1.2em;
-		}
-	
-	.cart-item.pay{
-		width:100%;
-		}
-	.grand{
-		clear:both;
-		text-align:center;
-		margin:0;
-		padding-top:25px;
-		width:100%;
-		-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
-		
-	}
-		.grand li{
-			list-style: none;
-			margin-left:-29px;
-		}
-		.grand h2{
-			padding:0;
-		}
-		.grand.pay{
-			margin:0 0 0 5px;
-		}
-		.grand form{
-			width:70%;
-		}
-	.country select{
-		height:25px;
-		padding-top:5px;
-	}
-	.pay-method{
-		width:100%;
-		-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-	}
-	.pay-form form{
-		width:100%;
-	}
-	
-	.proceed{
-		height:40px;
-	}
-	.related-list ul{
-		margin-left:auto;
-		margin-right:auto;
-	}
-	.related-list button{
-	display:none;
-	}
-	.product-related-vinyl h2{
-		text-align:center;
-	}
-
-/*=====	Footer ======*/
-.footer-wrapper{
-	background-color:#333333;
-	margin:0 auto;
-	width:100%;
-	-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-
-}
-	.footer{		
-		width:160px;
-		margin-left: 20px;
-	}
-		.footer a{
-			color:#686d71;
-			text-decoration:none;
-			font-weight:normal;
-			display:block;
-		}
-		
-	
-	.footer-contact, .footer-message{
-		width:100%;
-		color:#686d71;
-		text-align:left;
-		margin: 13px 0 0 10px;
-		list-style:none;
-	}
-	.footer-contact li{
-		display:inline;
-	}
-	
-	
