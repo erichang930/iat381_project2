@@ -443,13 +443,25 @@ input[type=text]:focus{
 	border-radius: 8px;
 }
 
+.vinyl-list li button.buy1:hover{
+	color:#fff;
+	background-color: #000	
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
 /* Audio */
 audio
 {
 float:right;
-margin:5px 0 0 0;
-border: 1px solid #e0e0e0;
-color: #606060;
+margin:-114px 0px 0 0px;
+background-color: #000;
+color: #000;
+width: 580px;
 max-height: 100%;
 max-width: 100%;
 -webkit-transition:all 0.5s linear;
