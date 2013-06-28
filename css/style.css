@@ -454,11 +454,21 @@ input[type=text]:focus{
 	border-radius: 8px;
 }
 
+.vinyl-list li button.buy2:hover{
+	background: #a1a7ab;
+	text-align: center;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+
 /* Audio */
 audio
 {
 float:right;
-margin:-114px 0px 0 0px;
+margin:-178px 0px 0 0px;
 background-color: #000;
 color: #000;
 width: 580px;
@@ -557,7 +567,7 @@ border-radius: 3px;
 	float:left;
 	width:25%;
 	border-left:1px dashed  #a1a7ab;
-	height: 350px;
+	height: 410px;
 	padding: 0 0 0 35px;
 	margin: 0px;
 	}
@@ -565,26 +575,27 @@ border-radius: 3px;
 .product-comments-wrapper{
 	width:90%;
 	background-color: white;
-	padding:10px 20px;
+	
 }
 
 .product-comments-wrapper h2{
 	font-size:20px;
-	margin:15px 0;
+	margin:30px 0;
 }
 	
 /* Product comments */
 
 .comments-list{
-
 }
-	.comments-list li{
-		clear:both;
-		width:100%;
-		list-style-type: none;
-		margin:18px 0;
-		border-bottom:1px dashed  #a1a7ab;
-	}
+
+.comments-list li{
+	clear:both;
+	width:65%;
+	list-style-type: none;
+	padding: 0px 0 14px 0;
+	margin:28px 0;
+	border-bottom:1px dashed #a1a7ab;
+}
 
 .comment-data{
 	float:left;
@@ -592,7 +603,7 @@ border-radius: 3px;
 }
 
 .comment-data img{
-	margin: 0 10px 0 0;
+	margin: 0 8px 0 0;
 }
 			
 .comment-data h3{
@@ -602,7 +613,7 @@ border-radius: 3px;
 
 .comment-text{
 	float:left;
-	width:300px;
+	width:500px;
 }
 
 /* Related Product*/
