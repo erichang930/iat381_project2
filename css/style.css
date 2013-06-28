@@ -543,20 +543,22 @@ border-radius: 3px;
 	width:70%;
 	height:400px;
 }
-	.product-list{
-		margin:15px 0 0 0;
-	}
-	.product-list li{
-		margin:0 20px 0 0;
-		width:auto;
-	}
+
+.product-list{
+	margin:15px 0 0 0;
+}
+
+.product-list li{
+	margin:0 20px 0 0;
+	width:auto;
+}
 	
 .product-related-wrapper{
 	float:left;
 	width:25%;
 	border-left:1px dashed  #a1a7ab;
 	height: 350px;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 35px;
 	margin: 0px;
 	}
 
@@ -565,10 +567,11 @@ border-radius: 3px;
 	background-color: white;
 	padding:10px 20px;
 }
-	.product-comments-wrapper h2{
-			font-size:20px;
-			margin:15px 0;
-		}
+
+.product-comments-wrapper h2{
+	font-size:20px;
+	margin:15px 0;
+}
 	
 /* Product comments */
 
